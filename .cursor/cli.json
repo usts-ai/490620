@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(npm)", "Shell(npx)", "Shell(node)",
+      "Read(src/**/*)", "Read(public/**/*)",
+      "Write(src/**/*)", "Write(public/**/*)",
+      "Write(package.json)"
+    ],
+    "deny": [
+      "Shell(rm)", "Shell(sudo)",
+      "Read(.env*)", "Read(**/*.key)",
+      "Write(.env*)", "Write(**/*.key)"
+    ]
+  }
+}

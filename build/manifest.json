@@ -1,0 +1,15 @@
+{
+  "short_name": "GLBForge",
+  "name": "GLBForge — DWG vers GLB",
+  "icons": [
+    {
+      "src": "USTS.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#060D18",
+  "background_color": "#060D18"
+}

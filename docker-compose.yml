@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  # Frontend service
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
